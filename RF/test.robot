@@ -4,8 +4,9 @@ Test Setup        Add Needed Image Path
 Test Teardown     Stop Remote Server
 Library           SikuliLibrary
 
+
 *** Variables ***
-${IMAGE_DIR}      ${CURDIR}\\image
+${IMAGE_DIR}      ./image
 
 *** Test Cases ***
 Windows Notpad Hellow World

@@ -5,12 +5,10 @@ ENV SCREEN_COLOUR_DEPTH 24
 ENV SCREEN_HEIGHT 1080
 ENV SCREEN_WIDTH 1920
 
-ENV ROBOT_REPORTS_DIR /opt/robotframework/reports
-ENV ROBOT_TESTS_DIR /opt/robotframework/tests
-ENV ROBOT_WORK_DIR /opt/robotframework/temp
 
 # Set up a volume for the generated reports
-VOLUME ${ROBOT_REPORTS_DIR}
+VOLUME /opt/robotframework/reports
+VOLUME /opt/robotframework/tests
 
 #Avoid tzdata and timezone during build
 ENV TZ=Europe/Prague
