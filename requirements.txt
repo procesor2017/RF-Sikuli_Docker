@@ -1,0 +1,9 @@
+xvfbwrapper
+requests
+robotframework
+robotframework-httplibrary
+robotframework-requests
+robotframework-seleniumlibrary
+robotframework-SikuliLibrary
+robotframework-sshlibrary
+robotframework-xvfb
